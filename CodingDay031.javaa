@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         String jarakkota ="256";
         
-        int jarak =Integer.parseInt(jarakkota);
+        int jarak =Integer.parseInt("256");
         
         System.out.println("jarak antara kota A dan B = "+jarak+"km");
     }
