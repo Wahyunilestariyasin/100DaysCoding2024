@@ -1,0 +1,12 @@
+package CodingDay;
+public class Main {
+    
+    public static void main(String[] args) {
+        byte l =100;
+        while(l>=1){
+            System.out.println("energi positifku " + l +"%");
+            l--;
+        }
+    }
+    
+}
