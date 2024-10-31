@@ -1,0 +1,19 @@
+package CodingDay;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int aku =4;
+        
+        do{
+            System.out.print(aku%2);
+            aku++;
+            
+        }
+        while(aku<=33);
+        
+        
+        
+    }
+    
+} 
