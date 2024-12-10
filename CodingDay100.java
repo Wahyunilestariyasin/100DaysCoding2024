@@ -16,14 +16,17 @@ public class menunjukkanJam {
         if(waktu.isAfter(pagi) && waktu.isBefore(siang)){
             System.out.println("\n==================================================\n");
             System.out.println("Selamat Pagi,"+nama+"semoga harimu menyenangkan!");
+            System.out.println("Program anda telah selesai");
            System.out.println("\n==================================================");
         }else if(waktu.isAfter(siang) && waktu.isBefore(malam)){
             System.out.println("==================================================\n");
             System.out.println("Selamat Siang,"+nama+"Mau makan apa siang ini");
+            System.out.println("Program anda telah selesai");
             System.out.println("\n==================================================");
         }else{
             System.out.println("==================================================\n");
             System.out.println("Selamat malam "+nama+",Bagaimana harimu?");
+            System.out.println("Program anda telah selesai");
             System.out.println("\n==================================================");
         }
         
