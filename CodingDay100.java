@@ -9,7 +9,7 @@ public class menunjukkanJam {
         String nama =aw.nextLine();
         LocalTime waktu =LocalTime.now(ZoneId.of("Asia/Makassar"));
         
-        LocalTime pagi = LocalTime.of(0,59);
+        LocalTime pagi = LocalTime.of(00,00);
         LocalTime siang = LocalTime.of(12,0);
         LocalTime malam = LocalTime.of(17,01);
         
